@@ -6,9 +6,41 @@
 }
 /* debug */
 
+/* header-top debug */
+.header-top.debug{
+    background-color: #ADD8E6;
+    height: 60px;
+}
+.row1.debug{
+    background-color: #DAA520;
+    height: 30px;
+}
+
 /* common */
 
 .container{
     max-width: 1200px;
     margin: auto;
+}
+
+/* header */
+
+/* header-top */
+.header-top{
+    padding: 15px 0px;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row1 div,nav{
+    border: 2px dashed black;
+    padding: 5px;
+}
+.row1 div{
+    width: 20%;
+}
+.row1 nav{
+    width: 60%;
 }
