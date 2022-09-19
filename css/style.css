@@ -28,6 +28,21 @@
     height: 400px;
 }
 
+/* sezione 1 debug */
+
+.sezione1.debug{
+    background-color: white;
+    height: 600px;
+}
+.col-big.debug{
+    height: 500px;
+    background-color:#1E90FF ;
+}
+.col-small.debug{
+    height: 500px;
+    background-color: #FFC0CB;
+}
+
 /* common */
 
 .container{
@@ -66,5 +81,18 @@
     padding: 50px 25%;
 }
 
+/* sezione 1 */
 
-
+.sezione1{
+    
+}
+.col-big{
+    width: 66.66%;
+}
+.col-small{
+    width: 33.33%;
+}
+.row{
+    display: flex;
+    padding: 50px 0px;
+}
