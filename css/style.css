@@ -7,13 +7,25 @@
 /* debug */
 
 /* header-top debug */
+
 .header-top.debug{
     background-color: #ADD8E6;
-    height: 60px;
+    height: 80px;
 }
 .row1.debug{
     background-color: #DAA520;
-    height: 30px;
+    height: 45px;
+}
+
+/* header-bottom debug */
+
+.header-bottom.debug{
+    background-color:#00008B ;
+    height: 500px;
+}
+.hero.debug{
+    background-color: #EE82EE;
+    height: 400px;
 }
 
 /* common */
@@ -22,10 +34,14 @@
     max-width: 1200px;
     margin: auto;
 }
+.border{
+    border: 2px dashed black;
+}
 
 /* header */
 
 /* header-top */
+
 .header-top{
     padding: 15px 0px;
 }
@@ -34,9 +50,8 @@
     justify-content: space-between;
     align-items: center;
 }
-.row1 div,nav{
-    border: 2px dashed black;
-    padding: 5px;
+.row1 div,nav{    
+    padding: 10px;
 }
 .row1 div{
     width: 20%;
@@ -44,3 +59,12 @@
 .row1 nav{
     width: 60%;
 }
+
+/* header bottom */
+
+.header-bottom{
+    padding: 50px 25%;
+}
+
+
+
