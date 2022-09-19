@@ -27,7 +27,9 @@
     background-color: #EE82EE;
     height: 400px;
 }
-/* debug sezioni */
+
+/* debug sezioni 1 2 3*/
+
 .col-big.debug{
     height: 500px;
     background-color:#1E90FF ;
@@ -36,7 +38,6 @@
     height: 500px;
     background-color: #FFC0CB;
 }
-
 
 /* sezione 1 debug */
 
@@ -57,6 +58,17 @@
 .sezione3.debug{
     background-color: white;
     height: 600px;
+}
+
+/* sezione 4 debug */
+
+.sezione4.debug{
+    background-color:#D3D3D3 ;
+    height: 1000px;
+}
+.green.debug{
+    background-color: #228B22;
+    height: 900px;
 }
 
 /* common */
@@ -97,7 +109,9 @@
     padding: 50px 25%;
 }
 
-/* sezione 1 */
+/* main */
+
+/* sezioni 1 2 3*/
 
 .col-big{
     width: 66.66%;
@@ -107,5 +121,11 @@
 }
 .row{
     display: flex;
+    padding: 50px 0px;
+}
+
+/* sezione 4 */
+
+.sezione4{
     padding: 50px 0px;
 }
