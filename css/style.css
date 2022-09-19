@@ -27,13 +27,7 @@
     background-color: #EE82EE;
     height: 400px;
 }
-
-/* sezione 1 debug */
-
-.sezione1.debug{
-    background-color: white;
-    height: 600px;
-}
+/* debug sezioni */
 .col-big.debug{
     height: 500px;
     background-color:#1E90FF ;
@@ -41,6 +35,28 @@
 .col-small.debug{
     height: 500px;
     background-color: #FFC0CB;
+}
+
+
+/* sezione 1 debug */
+
+.sezione1.debug{
+    background-color: white;
+    height: 600px;
+}
+
+/* sezione 2 debug */
+
+.sezione2.debug{
+    height: 600px;
+    background-color:#D3D3D3 ;
+}
+
+/* sezione 3 debug */
+
+.sezione3.debug{
+    background-color: white;
+    height: 600px;
 }
 
 /* common */
@@ -83,9 +99,6 @@
 
 /* sezione 1 */
 
-.sezione1{
-    
-}
 .col-big{
     width: 66.66%;
 }
