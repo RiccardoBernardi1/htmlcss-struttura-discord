@@ -6,6 +6,12 @@
 }
 /* DEBUG */
 
+/* border debug */
+
+.border.debug{
+    border: 2px dashed black;
+}
+
 /* header-top debug */
 
 .header-top.debug{
@@ -119,9 +125,6 @@
     max-width: 1200px;
     margin: auto;
 }
-.border{
-    border: 2px dashed black;
-}
 
 /* HEADER */
 
@@ -182,9 +185,6 @@
 }
 .row3{
     display: flex;
-}
-.col2{
-    border: 2px dashed white;
 }
 
 /* footer bottom debug*/
